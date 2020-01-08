@@ -26,6 +26,14 @@ There are two cloud formation scripts files:
     - s3-staticweb.yaml
     - s3-staticweb-r53.yaml
 6. Click "Next"
+
+### For the s3-staticweb-r53.yaml selection
+
 7. In the "Specify stack details"
   - Name the stack 
-  - Provide full domain name as it is registered in the route53 
+  - Provide full domain name as it is registered in the route53
+8. Click "Next"
+9. In the "Configure stack options" keep everything default
+10. Click "Next"
+11. Review all options and select "Create stack"
+12. You will see CREATE_IN_PROGRESS status 
